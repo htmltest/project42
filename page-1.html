@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Nissan</title>
+
+        <link rel="stylesheet" href="css/styles.css" />
+        <link rel="stylesheet" href="js/chosen/chosen.css" />
+
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/chosen/chosen.jquery.min.js"></script>
+        <script src="js/tools.js"></script>
+
+        <meta name="viewport" content="width=1000" />
+    </head>
+
+    <body>
+
+        <!-- wrapper -->
+        <div class="wrapper">
+
+            <header>
+                <div class="logo"><a href="#"><img src="images/logo.png" alt="" width="100" height="120" /></a></div>
+                <div class="title">Ответьте на несколько несложных вопросов</div>
+            </header>
+
+            <form action="page-2.html" method="post">
+
+                <fieldset>
+                    <div class="block-title">Ниже представлены утверждения, касающиеся образа жизни<br />и отношения к автомобилям. Оцените, пожалуйста, насколько<br />Вы согласны с каждым из них.</div>
+                    <div class="block-hint">Для ответа используйте шкалу, представленную ниже</div>
+
+                    <div class="scale">
+                        <div class="scale-text">
+                            <div class="scale-text-1">Полностью согласен</div>
+                            <div class="scale-text-sep"></div>
+                            <div class="scale-text-1">Скорее согласен</div>
+                            <div class="scale-text-sep"></div>
+                            <div class="scale-text-1">Частично согласен/<br />не согласен</div>
+                            <div class="scale-text-sep"></div>
+                            <div class="scale-text-1">Скорее<br />НЕ согласен</div>
+                            <div class="scale-text-sep"></div>
+                            <div class="scale-text-1">Полностью<br />НЕ согласен</div>
+                        </div>
+                        <div class="scale-value">
+                            <div class="scale-value-1">10</div>
+                            <div class="scale-value-1">9</div>
+                            <div class="scale-value-1">8</div>
+                            <div class="scale-value-1">7</div>
+                            <div class="scale-value-1">6</div>
+                            <div class="scale-value-1">5</div>
+                            <div class="scale-value-1">4</div>
+                            <div class="scale-value-1">3</div>
+                            <div class="scale-value-1">2</div>
+                            <div class="scale-value-1">1</div>
+                        </div>
+                    </div>
+
+                    <div class="answer-title">Ответ</div>
+
+                    <div class="question">
+                        <div class="question-number">1.1</div>
+                        <div class="question-name">Больше всего я желаю видеть моих близких и друзей счастливыми</div>
+                        <div class="question-select">
+                            <select name="answer_1_1" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">1.2</div>
+                        <div class="question-name">Я уделяю много внимания эстетической стороне всего, что я приобретаю</div>
+                        <div class="question-select">
+                            <select name="answer_1_2" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">1.3</div>
+                        <div class="question-name">В отношении потребления и отдыха меня можно назвать «законодателем мод»: обычно я первым выбираю то, что позднее станет модной тенденцией</div>
+                        <div class="question-select">
+                            <select name="answer_1_3" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">1.4</div>
+                        <div class="question-name">За рулем я чувствую себя неуверенно</div>
+                        <div class="question-select">
+                            <select name="answer_1_4" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">1.5</div>
+                        <div class="question-name">Я предпочту меньший по размеру автомобиль, но лучше укомплектованный, чем больший по размеру, но с меньшим количеством опций</div>
+                        <div class="question-select">
+                            <select name="answer_1_5" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">1.6</div>
+                        <div class="question-name">Управляя автомобилем, я иногда устраиваю гонки с другими водителями</div>
+                        <div class="question-select">
+                            <select name="answer_1_6" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div class="block-title">Ниже приведены описания некоторых людей. Пожалуйста, оцените, насколько каждый типаж похож или не похож на Вас.</div>
+                    <div class="block-hint">Для ответа используйте шкалу, представленную ниже</div>
+
+                    <div class="scale">
+                        <div class="scale-text">
+                            <div class="scale-text-2">Очень<br />похож<br />на меня</div>
+                            <div class="scale-text-sep"></div>
+                            <div class="scale-text-2">похож<br />на меня</div>
+                            <div class="scale-text-sep"></div>
+                            <div class="scale-text-2">В некоторой<br />степени<br />похож<br />на меня</div>
+                            <div class="scale-text-sep"></div>
+                            <div class="scale-text-2">Немного<br />похож<br />на меня</div>
+                            <div class="scale-text-sep"></div>
+                            <div class="scale-text-2">Не похож<br />на меня</div>
+                            <div class="scale-text-sep"></div>
+                            <div class="scale-text-2">Совсем<br />не похож<br />на меня</div>
+                        </div>
+                        <div class="scale-value">
+                            <div class="scale-value-2">1</div>
+                            <div class="scale-value-2">2</div>
+                            <div class="scale-value-2">3</div>
+                            <div class="scale-value-2">4</div>
+                            <div class="scale-value-2">5</div>
+                            <div class="scale-value-2">6</div>
+                        </div>
+                    </div>
+
+                    <div class="answer-title">Ответ</div>
+
+                    <div class="question">
+                        <div class="question-number">2.1</div>
+                        <div class="question-name">Для нее/него очень важно помогать окружающим. Он/она хочет заботиться об их благополучии</div>
+                        <div class="question-select">
+                            <select name="answer_2_1" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">2.2</div>
+                        <div class="question-name">Для нее/него очень важно преуспеть в жизни. Ей/ему нравится производить впечатление на других</div>
+                        <div class="question-select">
+                            <select name="answer_2_2" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">2.3</div>
+                        <div class="question-name">Он/она любит рисковать. Всегда ищет приключений</div>
+                        <div class="question-select">
+                            <select name="answer_2_3" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">2.4</div>
+                        <div class="question-name">Он/она всегда ищет повод для развлечения. Для нее/него важно делать то, что доставляет  удовольствие</div>
+                        <div class="question-select">
+                            <select name="answer_2_4" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">2.5</div>
+                        <div class="question-name">Для нее/него важно быть скромным. Он/она старается не привлекать к себе внимание</div>
+                        <div class="question-select">
+                            <select name="answer_2_5" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div class="block-title">Насколько Вы согласны с каждым из нижеприведенных высказываний об автомобилях?</div>
+                    <div class="block-hint">Для ответа используйте шкалу, представленную ниже</div>
+
+                    <div class="scale">
+                        <div class="scale-text">
+                            <div class="scale-text-3">Полностью согласен</div>
+                            <div class="scale-text-sep"></div>
+                            <div class="scale-text-3">Скорее согласен</div>
+                            <div class="scale-text-sep"></div>
+                            <div class="scale-text-3">Скорее<br />не согласен</div>
+                            <div class="scale-text-sep"></div>
+                            <div class="scale-text-3">Полностью<br />НЕ согласен</div>
+                        </div>
+                        <div class="scale-value">
+                            <div class="scale-value-3">4</div>
+                            <div class="scale-value-3">3</div>
+                            <div class="scale-value-3">2</div>
+                            <div class="scale-value-3">1</div>
+                        </div>
+                    </div>
+
+                    <div class="answer-title">Ответ</div>
+
+                    <div class="question">
+                        <div class="question-number">3.1</div>
+                        <div class="question-name">Я бы хотел/-ла, чтобы мой автомобиль был оснащен новейшим аудио/теле/видео и другим оборудованием</div>
+                        <div class="question-select">
+                            <select name="answer_3_1" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">3.2</div>
+                        <div class="question-name">Лично я всегда ищу самые новейшие и инновационные модели автомобилей</div>
+                        <div class="question-select">
+                            <select name="answer_3_2" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">3.3</div>
+                        <div class="question-name">Я рассматриваю автомобиль скорее как средство передвижения, чем как источник удовольствия</div>
+                        <div class="question-select">
+                            <select name="answer_3_3" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">3.4</div>
+                        <div class="question-name">Мне нравится, когда люди обращают внимание на мой автомобиль</div>
+                        <div class="question-select">
+                            <select name="answer_3_4" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">3.5</div>
+                        <div class="question-name">Автомобиль для меня – это больше свобода, чем ограничения</div>
+                        <div class="question-select">
+                            <select name="answer_3_5" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div class="block-title">Насколько для Вас важны следующие критерии при выборе автомобиля...?</div>
+                    <div class="block-hint">Для ответа используйте шкалу, представленную ниже</div>
+
+                    <div class="scale">
+                        <div class="scale-text">
+                            <div class="scale-text-1">Очень<br />важно</div>
+                            <div class="scale-text-sep"></div>
+                            <div class="scale-text-1">Скорее<br />важно</div>
+                            <div class="scale-text-sep"></div>
+                            <div class="scale-text-1">Нейтральное<br />отношение</div>
+                            <div class="scale-text-sep"></div>
+                            <div class="scale-text-1">Скорее<br />НЕ важно</div>
+                            <div class="scale-text-sep"></div>
+                            <div class="scale-text-1">Совершенно<br />НЕ важно</div>
+                        </div>
+                        <div class="scale-value">
+                            <div class="scale-value-1">10</div>
+                            <div class="scale-value-1">9</div>
+                            <div class="scale-value-1">8</div>
+                            <div class="scale-value-1">7</div>
+                            <div class="scale-value-1">6</div>
+                            <div class="scale-value-1">5</div>
+                            <div class="scale-value-1">4</div>
+                            <div class="scale-value-1">3</div>
+                            <div class="scale-value-1">2</div>
+                            <div class="scale-value-1">1</div>
+                        </div>
+                    </div>
+
+                    <div class="answer-title">Ответ</div>
+
+                    <div class="question">
+                        <div class="question-number">4.1</div>
+                        <div class="question-name">… легко припарковаться даже в ограниченном парковочном пространстве</div>
+                        <div class="question-select">
+                            <select name="answer_4_1" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">4.2</div>
+                        <div class="question-name">… обеспечивает безопасность в случае столкновения</div>
+                        <div class="question-select">
+                            <select name="answer_4_2" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">4.3</div>
+                        <div class="question-name">… обеспечивает лучшее соотношение «цена-качество»</div>
+                        <div class="question-select">
+                            <select name="answer_4_3" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">4.4</div>
+                        <div class="question-name">… имеет большой багажник</div>
+                        <div class="question-select">
+                            <select name="answer_4_4" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">4.5</div>
+                        <div class="question-name">… издает ярко выраженный звук двигателя спортивного  автомобиля</div>
+                        <div class="question-select">
+                            <select name="answer_4_5" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">4.6</div>
+                        <div class="question-name">… имеет лучшую оснащенность оборудованием (в пределах своего класса)</div>
+                        <div class="question-select">
+                            <select name="answer_4_6" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">4.7</div>
+                        <div class="question-name">… меньше всего загрязняет окружающую среду</div>
+                        <div class="question-select">
+                            <select name="answer_4_7" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="question">
+                        <div class="question-number">4.8</div>
+                        <div class="question-name">… имеет полноразмерное запасное колесо</div>
+                        <div class="question-select">
+                            <select name="answer_4_8" data-placeholder=" ">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="submit"><input type="submit" value="отправить" /></div>
+
+            </form>
+
+            <div class="translate">*Инновации, которые восхищают.</div>
+
+        </div>
+        <!-- wrapper END -->
+
+    </body>
+</html>

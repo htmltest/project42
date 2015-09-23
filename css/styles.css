@@ -1,0 +1,59 @@
+@font-face {font-family:"NissanAG Regular"; src:url("../fonts/nissanagreg_ttf-webfont.eot"); src:url("../fonts/nissanagreg_ttf-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/nissanagreg_ttf-webfont.woff") format("woff"), url("../fonts/nissanagreg_ttf-webfont.ttf") format("truetype"), url("../fonts/nissanagreg_ttf-webfont.svg#nissan_agregular") format("svg"); font-weight:normal; font-style:normal}
+@font-face {font-family:"NissanAG Medium"; src:url("../fonts/nissanagmed_ttf-webfont.eot"); src:url("../fonts/nissanagmed_ttf-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/nissanagmed_ttf-webfont.woff") format("woff"), url("../fonts/nissanagmed_ttf-webfont.ttf") format("truetype"), url("../fonts/nissanagmed_ttf-webfont.svg#nissan_agmedium") format("svg"); font-weight:normal; font-style:normal}
+@font-face {font-family:"NissanAG Bold"; src:url("../fonts/nissanagbol_ttf-webfont.eot"); src:url("../fonts/nissanagbol_ttf-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/nissanagbol_ttf-webfont.woff") format("woff"), url("../fonts/nissanagbol_ttf-webfont.ttf") format("truetype"), url("../fonts/nissanagbol_ttf-webfont.svg#nissan_agbold") format("svg"); font-weight:normal; font-style:normal}
+
+html {height:100%}
+
+body {height:100%; margin:0; padding:0; font:16px/24px verdana, geneva, sans-serif; color:#666; background:#fff}
+body.page-2 {background:#fff url(../images/bg.jpg) no-repeat center; background-size:cover}
+
+a {outline:none}
+
+img {border:none}
+
+.wrapper {padding:0 0 0 50px; width:800px}
+
+header:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.logo {float:left; width:100px; line-height:0}
+.title {margin:0 0 0 140px; width:400px; text-transform:uppercase; font:30px/38px "NissanAG Bold", sans-serif; color:#343434; letter-spacing:-1px; padding:53px 0 0 0}
+.page-2 .title {width:auto}
+.page-2 .title span {display:block; font:20px/28px "NissanAG Medium", sans-serif; padding:4px 0 0 0}
+
+form {margin:0; padding:0}
+
+fieldset {margin:64px 0 9px 0; padding:0; border:none; border-bottom:1px solid #c1c1c1; outline:none}
+
+.block-title {font:20px/28px "NissanAG Medium", sans-serif; text-transform:uppercase; color:#343434; letter-spacing:-1px}
+.block-hint {font:20px/28px "NissanAG Regular", sans-serif}
+
+.scale-text {padding:24px 0 0 0; text-transform:uppercase; color:#343434; font-size:0; line-height:0; letter-spacing:-1px}
+.scale-text-1,
+.scale-text-2,
+.scale-text-3 {display:inline-block; vertical-align:middle; font:14px/17px "NissanAG Regular", sans-serif; text-align:center; letter-spacing:0}
+.scale-text-1 {width:121px}
+.scale-text-2 {width:105px}
+.scale-text-3 {width:130px}
+.scale-text-sep {display:inline-block; vertical-align:middle; width:1px; height:40px; background:#c1c1c1}
+
+.scale-value {font-size:0; line-height:0; letter-spacing:-1px; padding:7px 0 0 0}
+.scale-value-1,
+.scale-value-2,
+.scale-value-3 {margin:0 1px 0 0; display:inline-block; vertical-align:top; height:30px; font:20px/30px "NissanAG Regular", sans-serif; text-align:center; color:#fff; background:#c71444}
+.scale-value-1 {width:60px}
+.scale-value-2 {width:105px}
+.scale-value-3 {width:130px}
+
+.answer-title {font:20px/30px "NissanAG Regular", sans-serif; text-align:center; width:60px; padding:13px 0 0 720px}
+
+.question {border-top:1px solid #c1c1c1; padding:0 0 10px 0}
+.question:after {content:"."; display:block; clear:both; visibility:hidden; height:0}
+.question-number {float:left; padding:12px 0 0 24px; width:40px; font-weight:bold}
+.question-name {float:left; width:570px; padding:12px 0 0 0}
+.question-select {float:right; width:80px; padding:10px 0 0 0}
+.question-select select {width:60px}
+
+.submit {padding:71px 0 0 0}
+.submit input {vertical-align:top; margin:0; padding:0 48px 0 20px; border:none; background:#c71444 url(../images/submit.png) no-repeat right center; overflow:visible; color:#fff; text-transform:uppercase; font:17px/44px "NissanAG Bold", sans-serif; height:44px; outline:none; cursor:pointer; -webkit-appearance:none}
+.submit input:hover {background-color:#e6164e}
+
+.translate {padding:35px 0 32px 0}

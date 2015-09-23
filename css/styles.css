@@ -50,10 +50,23 @@ fieldset {margin:64px 0 9px 0; padding:0; border:none; border-bottom:1px solid #
 .question-number {float:left; padding:12px 0 0 24px; width:40px; font-weight:bold}
 .question-name {float:left; width:570px; padding:12px 0 0 0}
 .question-select {float:right; width:80px; padding:10px 0 0 0}
-.question-select select {width:60px}
+.question-select select {width:60px; font:16px/24px verdana, geneva, sans-serif; height:24px; color:#666}
 
 .submit {padding:71px 0 0 0}
 .submit input {vertical-align:top; margin:0; padding:0 48px 0 20px; border:none; background:#c71444 url(../images/submit.png) no-repeat right center; overflow:visible; color:#fff; text-transform:uppercase; font:17px/44px "NissanAG Bold", sans-serif; height:44px; outline:none; cursor:pointer; -webkit-appearance:none}
 .submit input:hover {background-color:#e6164e}
 
 .translate {padding:35px 0 32px 0}
+
+@media (max-width:800px) {
+    body.page-2 {background-image:url(../images/bg-mobile.jpg)}
+    .wrapper {width:auto; padding:0 50px}
+    .block-title br {display:none}
+    fieldset {border:none}
+    .answer-title {display:none}
+    .question {border-top:none}
+    .question-name {float:none; width:auto; margin:0 0 0 64px}
+    .question-select {float:none; width:100%}
+    .question-select select {width:100%}
+    .submit input {width:100%; box-sizing:border-box}
+}
